@@ -8,12 +8,12 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Client collaboration is at the core of my process, ensuring clear, open, and effective communication.",
+    title: "",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/collab.png",
     spareImg: "",
   },
   {
@@ -28,10 +28,10 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Technical Proficiencies",
+    description: "Never settling—always learning",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
+    imgClassName: "w-full h-auto object-contain",
     titleClassName: "justify-center",
     img: "",
     spareImg: "",
