@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/collab.png",
+    img: "./collab.png",
     spareImg: "",
   },
   {
@@ -43,7 +43,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
+    img: "./grid.svg",
     spareImg: "/b4.svg",
   },
 
@@ -54,8 +54,8 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
+    img: "./b5.svg",
+    spareImg: "./grid.svg",
   },
   {
     id: 6,
@@ -74,33 +74,33 @@ export const projects = [
     id: 1,
     title: "3D Solar System Planets to Explore",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    img: "./p1.svg",
+    iconLists: ["./re.svg", "./tail.svg", "./ts.svg", "./three.svg", "./fm.svg"],
+    link: "./ui.earth.com",
   },
   {
     id: 2,
     title: "Yoom - Video Conferencing App",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    img: "./p2.svg",
+    iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./stream.svg", "./c.svg"],
+    link: ".ui.yoom.com",
   },
   {
     id: 3,
     title: "AI Image SaaS - Canva Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    img: "./p3.svg",
+    iconLists: ["./re.svg", "./tail.svg", "./ts.svg", "./three.svg", "./c.svg"],
+    link: "./ui.aiimg.com",
   },
   {
     id: 4,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    img: "./p4.svg",
+    iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
+    link: "./ui.apple.com",
   },
 ];
 
@@ -108,32 +108,32 @@ export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    img: "./cloud.svg",
+    nameImg: "./cloudName.svg",
   },
   {
     id: 2,
     name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    img: "./app.svg",
+    nameImg: "./appName.svg",
   },
   {
     id: 3,
     name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    img: "./host.svg",
+    nameImg: "./hostName.svg",
   },
   {
     id: 4,
     name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    img: "./s.svg",
+    nameImg: "./streamName.svg",
   },
   {
     id: 5,
     name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    img: "./dock.svg",
+    nameImg: "./dockerName.svg",
   },
 ];
 
@@ -144,7 +144,7 @@ export const workExperience = [
     company: "Smart Communications Inc.",
     desc: "Contributed to the development of a web-based platform utilizing ASP.NET, SQL, SSIS, and SOAP Web Services.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "./exp1.svg",
     url: "https://smart.com.ph/",
   },
   {
@@ -153,7 +153,7 @@ export const workExperience = [
     company: "ATOS", 
     desc: "Designed and developed web applications and services using ASP.NET MVC, ASP.NET Core, and Cisco technologies.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/programmer-thought.svg",
+    thumbnail: "./programmer-thought.svg",
     url: "https://atos.net/", 
   },
   {
@@ -162,7 +162,7 @@ export const workExperience = [
     company: "WSP USA Solutions Inc.",
     desc: "Implemented both backend and frontend functionalities using ASP.NET Core 6 (C#), ReactJS, AngularJS, RESTful APIs, Azure Function, LogicApp and SQL.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "./exp3.svg",
     url: "https://www.wsp.com/",
   },
   {
@@ -171,7 +171,7 @@ export const workExperience = [
     company: "EssilorLuxottica",
     desc: "Designed, developed, and maintained an invoicing application using ASP.NET MVC 5, WebAPI, SQL Server, and BizTalk for seamless data integration and transactional processing.",
     className: "md:col-span-2",
-    thumbnail: "/male-programmer.svg",
+    thumbnail: "./male-programmer.svg",
     url: "https://www.essilorluxottica.com/",
   },
 ];
@@ -179,17 +179,17 @@ export const workExperience = [
 export const socialMedia = [
    {
     id: "github",
-    img: "/github.svg", // adjust this path as needed
+    img: "./github.svg", // adjust this path as needed
     url: "https://github.com/users/rodelsuvalalaguna/projects/", // <-- your GitHub
   },
   {
     id: "linkedin",
-    img: "/linkedin.svg", // adjust this path as needed
+    img: "./linkedin.svg", // adjust this path as needed
     url: "https://www.linkedin.com/in/rodel-lalaguna-62b9076b/", // <-- your LinkedIn
   },
    {
     id: "Facebook",
-    img: "/facebook.svg", // adjust this path as needed
+    img: "./facebook.svg", // adjust this path as needed
     url: "https://www.facebook.com/profile.php?id=61569021011185", // <-- your facebook
   }
 ];

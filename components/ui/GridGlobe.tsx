@@ -8,7 +8,7 @@ const World = dynamic(() => import("./Globe").then((m) => m.World), {
 });
 
 const GridGlobe = () => {
-  const [hoveredCountry, setHoveredCountry] = useState(null);
+  const [hoveredCountry, setHoveredCountry] = useState<string | null>(null);
 
   const globeConfig = {
     pointSize: 4,

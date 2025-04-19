@@ -10,7 +10,7 @@ const Footer = () => {
         <h1 className="heading lg:max-w-[45vw]">
           Let&apos;s build something <span className="text-purple">exceptional</span> together. 
          <br /><br />
-          If you're looking to take your digital presence to the next level, I’m here to help bring your vision to life.
+          If you&rsquo;re looking to take your digital presence to the next level, I&rsquo;m here to help bring your vision to life.
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Get in touch today to discuss how I can contribute to achieving your goals through tailored software solutions.

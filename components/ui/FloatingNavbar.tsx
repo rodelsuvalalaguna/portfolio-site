@@ -132,7 +132,7 @@ export const FloatingNav = ({
 
             {/* PDF Preview */}
             <iframe
-              src="/rodellalaguna-cv.pdf"
+              src="./rodellalaguna-cv.pdf"
               className="w-full h-full border-none rounded"
               title="CV Preview"
             />
