@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://rodelsuvalalaguna.github.io/my-react-portfolio",
+  "homepage": "https://rodelsuvalalaguna.github.io/portfolio-site",
   "private": true,
   "scripts": {
     "dev": "next dev",
