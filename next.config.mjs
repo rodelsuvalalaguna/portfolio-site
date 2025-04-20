@@ -1,13 +1,15 @@
+// next.config.mjs
+const isProd = process.env.NODE_ENV === 'production'
+const prefix = isProd ? '/portfolio-site' : ''
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export', // Enable static export
+    output: 'export',
     reactStrictMode: true,
-    images: {
-        unoptimized: true, // For static export
-    },
-    basePath: '/portfolio-site',  // Adjust this if necessary
-    assetPrefix: '/portfolio-site',  // For assets on GitHub Pages
+    images: { unoptimized: true },
+    basePath: prefix,
+    assetPrefix: prefix,
     trailingSlash: true,
-};
+}
 
-export default nextConfig;
+export default nextConfig

@@ -1,17 +1,15 @@
-import type { NextConfig } from "next";
+// next.config.mjs
+const isProd = process.env.NODE_ENV === 'production'
+const prefix = isProd ? '/portfolio-site' : ''
 
-const nextConfig: NextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  output: 'export', // Use static export
-  images: {
-    unoptimized: true, // Optional: For <Image /> in static export
-  },
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
   reactStrictMode: true,
-  basePath: '/portfolio-site',  // Adjust this based on your GitHub Pages path
-  assetPrefix: '/portfolio-site',  // Helps with loading assets from GitHub Pages
-  trailingSlash: true,  // Ensure trailing slash for paths
-};
+  images: { unoptimized: true },
+  basePath: prefix,
+  assetPrefix: prefix,
+  trailingSlash: true,
+}
 
-export default nextConfig;
+export default nextConfig
