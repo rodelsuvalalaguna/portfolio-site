@@ -7,11 +7,11 @@ import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
-      <h1 className="heading">
+    <section id="projects" className="py-20" aria-labelledby="projects-heading">
+      <h2 id="projects-heading" className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
-      </h1>
+      </h2>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
           <div
@@ -19,21 +19,20 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title="/ui.aceternity.com"
-              href="https://twitter.com/mannupaaji"
+              title="View source"
+              href={item.link}
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="./bg.png" alt="bgimg" />
+                  <img
+                    src={item.img}
+                    alt={`${item.title} preview`}
+                    className="absolute inset-0 z-10 h-full w-full object-contain"
+                  />
                 </div>
-                <img
-                  src={item.img}
-                  alt="cover"
-                  className="z-10 absolute bottom-0"
-                />
               </div>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
@@ -67,7 +66,7 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                    View source
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
@@ -76,7 +75,7 @@ const RecentProjects = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
